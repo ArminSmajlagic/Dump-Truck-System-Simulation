@@ -1,0 +1,170 @@
+--------------- Generated Radnom Time Series Data ---------------------
+
+Weibull by inverse transformation technique for travel time:
+[ 29.52524 , 29.46935 , 30.50983 , 31.47422 , 30.41177 , 29.09274 , 30.04942 , 28.91112 ]
+
+Unifrom by inverse transformation technique for loading time:
+[ 11.30600 , 10.42200 , 16.59700 , 17.96500 , 17.69600 , 17.79100 , 19.21100 , 11.86200 ]
+
+Unifrom by inverse transformation technique for weighting time :
+[ 7.51708 , 7.42424 , 9.27532 , 9.97932 , 9.12176 , 6.87248 , 8.47452 , 6.65512 ]
+
+-------------Intial data of trucks -------------
+
+
++ Truck 1:
+ Loading time ->11
+ Weightng time ->8
+ Traveling time ->30
+
++ Truck 2:
+ Loading time ->10
+ Weightng time ->7
+ Traveling time ->29
+
++ Truck 3:
+ Loading time ->17
+ Weightng time ->9
+ Traveling time ->31
+
++ Truck 4:
+ Loading time ->18
+ Weightng time ->10
+ Traveling time ->31
+
++ Truck 5:
+ Loading time ->18
+ Weightng time ->9
+ Traveling time ->30
+
++ Truck 6:
+ Loading time ->18
+ Weightng time ->7
+ Traveling time ->29
+
++ Truck 7:
+ Loading time ->19
+ Weightng time ->8
+ Traveling time ->30
+
++ Truck 8:
+ Loading time ->12
+ Weightng time ->7
+ Traveling time ->29
+
+
+ ------------------Simulation has started-----------------
+
+ ------------------You can view the events bellow-----------------
+
+
+ Truck 1 has started loading at 0 minutes.
+
+ Truck 2 has started loading at 0 minutes.
+
+ Truck 3 has started loading at 0 minutes.
+
+ Truck 4 has started loading at 10 minutes.
+
+ Truck 2 has finished loading at 10 minutes.
+
+ Truck 2 has started weighting at 10 minutes.
+
+ Truck 5 has started loading at 11 minutes.
+
+ Truck 1 has finished loading at 11 minutes.
+
+ Truck 1 has started weighting at 11 minutes.
+
+ Truck 6 has started loading at 17 minutes.
+
+ Truck 3 has finished loading at 17 minutes.
+
+ Truck 2 has finished weighting at 17 minutes.
+
+ Truck 3 has started weighting at 17 minutes.
+
+ Truck 1 has finished weighting at 19 minutes.
+
+ Truck 3 has finished weighting at 26 minutes.
+
+ Truck 7 has started loading at 28 minutes.
+
+ Truck 4 has finished loading at 28 minutes.
+
+ Truck 4 has started weighting at 28 minutes.
+
+ Truck 8 has started loading at 29 minutes.
+
+ Truck 5 has finished loading at 29 minutes.
+
+ Truck 5 has started weighting at 29 minutes.
+
+ Truck 6 has finished loading at 35 minutes.
+
+ Truck 4 has finished weighting at 38 minutes.
+
+ Truck 6 has started weighting at 38 minutes.
+
+ Truck 5 has finished weighting at 38 minutes.
+
+ Truck 8 has finished loading at 41 minutes.
+
+ Truck 8 has started weighting at 41 minutes.
+
+ Truck 6 has finished weighting at 45 minutes.
+
+ Truck 7 has finished loading at 47 minutes.
+
+ Truck 7 has started weighting at 47 minutes.
+
+ Truck 8 has finished weighting at 48 minutes.
+
+ Truck 7 has finished weighting at 55 minutes.
+
+----------------- Report -------------------
+
+Cumulativ loading time -> 123
+
+Cumulativ weighting time -> 65
+
+---------------------------------------------
+
+Coeficient of utilization of weighters -> 0.5818
+
+Coeficient of utilization of loaders -> 0.7455
+
+---------------------------------------------
+
+Loading time :
+
+Mean -> 15.3562
+
+Variance -> 10.9460
+
+Std. Dev. -> 3.3085
+
+---------------------------------------------
+
+Weighting time :
+
+Mean -> 8.1650
+
+Variance -> 2.6751
+
+Std. Dev. -> 1.6356
+
+---------------------------------------------
+Traveling time :
+
+Mean -> 29.9305
+
+Variance -> 0.9697
+
+Std. Dev. -> 0.9847
+
+---------------------------------------------
+
+End Of Simulation
+
+Author : Armin Smajlagic

@@ -7,7 +7,7 @@ Simulation of dump truck company delivery system as a queueiny system in C++. In
 Both radnom variate generator and simulation are programmed in c++ using OOP and data structure queue.
 Goal is to estimate the performance messurements of loaders and weighters such as utilization coefficients.
 Other statistics are being monitored :
-- meand, 
+- mean, 
 - variance,
 - standard diviation.
 
